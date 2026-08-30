@@ -48,15 +48,8 @@ A conversão do sinal sonoro unidimensional do domínio do tempo para o domínio
 
 ## Demonstração de Áudio
 
-Para validar a eficácia do modelo, realizei testes práticos utilizando trechos de referência, incluindo faixas de metal como **"Psychosocial" (Slipknot)**. Abaixo está a comparação entre o áudio da mistura original e a predição gerada pela U-Net.
-
-### Exemplo: Psychosocial (Slipknot)
-
-**1. Mistura Original (Input):**
-<audio controls src="./samples/Psycosocial.wav"></audio>
-
-**2. Bateria Isolada pela U-Net (Prediction):**
-<audio controls src="./checkpoints/10ep_lr5e-5_wd1e-3_sisdr-1.95/Psycosocial.wav"></audio>
+Para validar a eficácia do modelo, realizei testes práticos utilizando trechos de referência, incluindo faixas de metal como **"Psychosocial" (Slipknot)**. A seguir o link do drive com dois arquivos `WAV` de um trecho da música **Psychosocial**, sendo um a faixa original e o outro a faixa do modelo U-Net.  
+* Driver: [https://drive.google.com/file/d/1aUFrTzE1igHb7vPJIcBlBL8MNTMRpfTh/view?usp=sharing](https://drive.google.com/drive/folders/1It-_RyDlTYOnN-NqSFZ-Xe9HLI38w6AI?usp=sharing)
 
 ---
 
